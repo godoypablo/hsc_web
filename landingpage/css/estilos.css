@@ -1,0 +1,129 @@
+/* -- HEADER -- */
+body{
+	background-color:#484848; 
+	color:#DEDEDE;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron{
+	background:#B40404;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.jumbotron .titulo-blog{
+	font-style: 50px;
+}
+
+.row > div {
+	/*background: #FFFFFF;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+	font-size: 18px;
+	padding: 10px;
+	/*border-bottom: 1px solid #B40404*/;
+}
+
+.col {
+	background: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+	/*border: 1px solid #4d5061;*/
+}
+
+p {
+    display: block;
+    text-align: justify;
+    padding: 10px 15px;
+}
+
+.titulo {
+	font-size: 25px;
+	color:#D94D3A;
+	line-height: 28px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	/*font-weight: bold;*/
+
+}
+
+.columna{
+  
+/*  border: 1px solid #FFFFFF;
+  display: table-cell;
+  float: none;*/
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D94D3A;
+    margin: 1em 0;
+    padding: 0; 	
+}
+
+.btn-mio{
+	background: D94D3A;
+	color: #DEDEDE;
+}
+
+/*CONTACTO*/
+.contacto{
+	padding: 40px 0;
+	/*border-top: 1px solid #B33F3F; */
+	border-bottom: 1px solid #B33F3F;
+	margin-bottom: 40px;
+	
+}
+
+.contacto .titulo{
+/*  color: #801F1F;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-weight: 300;*/
+  /*font-size: 25px;*/
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.contacto .form-group{
+	margin-bottom: 0;
+}
+
+/*.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+	padding: 15px;
+	border: none;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+
+}*/
+
+.formulario textarea{
+height: 50px;
+min-height: 50px;
+max-height: 100px;
+}
+
+.formulario .boton{
+	background: #D94D3A;
+	border: none;
+	padding: 7px 30px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+}
+
+.formulario .boton:hover{
+	background: #D18888;
+	}
+
